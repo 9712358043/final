@@ -11,7 +11,7 @@ public:
     virtual int get_move() const;
 private:
     sf::Vector2f position;
-    int move;
+    const int move = 7;
 };
 
 #endif // XBOX_H
