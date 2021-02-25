@@ -8,6 +8,7 @@ class grid
       public:
             grid();
             void movement(int);//for moving bead in the game normally or with snakes or magic boxes
+            sf::Vector2f PosBasedOnCell(unsigned int);
       private:
             sf::Vector2f sizeofcell;//size of every cell in the grid
             bead mybead;

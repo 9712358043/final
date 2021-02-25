@@ -9,8 +9,11 @@ class bead
             void draw();
             void set_position(sf::Vector2f );
             sf::Vector2f get_position();
+            void set_cell(unsigned int );
+            unsigned int get_cell();
       private:
             sf::Vector2f position;
+            unsigned int mycell=0;
 
 };
 
