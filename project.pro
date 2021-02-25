@@ -9,14 +9,16 @@ SOURCES += \
     grid.cpp \
     bead.cpp \
     minibox.cpp \
-    normalbox.cpp
+    normalbox.cpp \
+    xbox.cpp
 
 HEADERS += \
         box.h \
         grid.h \
         bead.h \
         minibox.h \
-        normalbox.h
+        normalbox.h \
+        xbox.h
 
 unix|win32: LIBS += -LC:/sfml/lib -lsfml-system -lsfml-graphics -lsfml-window
 
