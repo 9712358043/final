@@ -5,6 +5,7 @@ CONFIG -= qt
 
 SOURCES += \
     box.cpp \
+    goldenbox.cpp \
         main.cpp \
     grid.cpp \
     bead.cpp \
@@ -14,6 +15,7 @@ SOURCES += \
 
 HEADERS += \
         box.h \
+        goldenbox.h \
         grid.h \
         bead.h \
         minibox.h \
