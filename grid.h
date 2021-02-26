@@ -11,6 +11,8 @@ class grid
             sf::Vector2f PosBasedOnCell(unsigned int);
       private:
             sf::Vector2f sizeofcell;//size of every cell in the grid
+            bool gofirst=false;
+            bool goend=false;
             bead mybead;
             Python python1;
             Python python2;
@@ -20,8 +22,8 @@ class grid
             Cobra cobra3;
             Viber viber1;
             Viber viber2;
-            Goldensnake gldnsnk1;
-            Goldensnake gldnsnk2;
+            GoldenSnake gldnsnk1;
+            GoldenSnake gldnsnk2;
             MiniBox mbox1;
             MiniBox mbox2;
             NormalBox nbox1;
