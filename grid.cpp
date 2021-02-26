@@ -169,4 +169,5 @@ sf::Vector2f grid::PosBasedOnCell(unsigned int number)
       }
       return pos;
 }
+void startgrid(){}
 

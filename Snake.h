@@ -2,7 +2,7 @@
 #ifndef Snake_h
 #define Snake_h
 #include <iostream>
-//#include <SFML/Graphics.hpp>
+#include <SFML/Graphics.hpp>
 class Snake
 {
 public:
